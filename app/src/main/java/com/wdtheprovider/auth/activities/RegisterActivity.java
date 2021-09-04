@@ -75,11 +75,15 @@ public class RegisterActivity extends AppCompatActivity {
             finish();
         });
 
+        txt_terms.setOnClickListener(v -> {
+            showToast("Open your terms and conditions.");
+        });
+
 
     }
 
     private void initComponents() {
-        name = findViewById(R.id.edt_user);
+        name = findViewById(R.id.edt_name);
         email = findViewById(R.id.edt_email);
         password = findViewById(R.id.edt_password);
         btn_register = findViewById(R.id.btn_register);
