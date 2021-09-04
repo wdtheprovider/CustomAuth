@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <!--default theme color-->
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#4CAF50</color>
+    <color name="colorAccent">#69F0AE</color>
+    <color name="colorBackgroundLight">#FFFFFF</color>
+    <color name="lightGrey">#378f3b</color>
+
+    <!--dark theme color-->
+    <color name="colorStatusBarDark">#0F1D24</color>
+    <color name="colorToolbarDark">#222D36</color>
+    <color name="colorBackgroundDark">#101D24</color>
+
+    <!--others-->
+    <color name="colorText">#202020</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGreySoft">#BCBEC1</color>
+    <color name="colorGreyMedium">#96989A</color>
+    <color name="colorGreyDark">#797979</color>
+    <color name="colorGreyDarkDeep">#424242</color>
+    <color name="colorCategory">#4aafff</color>
+    <color name="colorUsername">#1E88E5</color>
+    <color name="colorRipple">#BCBEC1</color>
+    <color name="colorOverlaySoft">#1A000000</color>
+    <color name="colorOverlayDark">#33000000</color>
+
+</resources>
