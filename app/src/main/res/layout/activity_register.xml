@@ -97,7 +97,7 @@
                     app:mrl_rippleOverlay="true">
 
                     <Button
-                        android:id="@+id/btn_update"
+                        android:id="@+id/btn_register"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -154,7 +154,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
-            android:layout_marginLeft="15dp"
             android:text="@string/already_have_account" />
 
         <Button
@@ -162,9 +161,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
             android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
             android:background="@android:color/transparent"
             android:foreground="?attr/selectableItemBackground"
             android:paddingLeft="5dp"
