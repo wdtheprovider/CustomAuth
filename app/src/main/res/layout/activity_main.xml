@@ -4,29 +4,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:padding="20dp"
     tools:context=".activities.MainActivity">
 
-    <RelativeLayout
+    <include
+        layout="@layout/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentTop="true" />
 
 
-        <Button
-            android:id="@+id/btn_login"
+    <RelativeLayout
+        android:id="@+id/rly_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/logged_in"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="You are logged in"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/rly_bottom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="btnAction"
-            android:text="Login" />
+            android:layout_alignParentBottom="true">
 
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/btn_login"
-            android:onClick="btnAction"
-            android:text="Register" />
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnAction"
+                android:text="Login" />
+
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_login"
+                android:onClick="btnAction"
+                android:text="Register" />
+
+        </RelativeLayout>
 
     </RelativeLayout>
 

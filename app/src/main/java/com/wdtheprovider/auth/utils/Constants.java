@@ -11,6 +11,8 @@ public class Constants {
     public static String RESULT = "result";
     public static String SUCCESS = "success";
     public static String REQUIRED_FIELD = "This field is required";
+    public static final String USER_NAME = "name";
+    public static final String USER_ID = "user_id";
 
     public static String TOP_URL_API = "https://dingi.icu/UniAPIs";
 

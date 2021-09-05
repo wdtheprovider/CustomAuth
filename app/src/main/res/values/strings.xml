@@ -16,4 +16,22 @@
     <string name="register">Register</string>
     <string name="login">Login</string>
 
+    <string name="title_please_wait">Please Wait&#8230;</string>
+    <string name="login_process">Processing login to your account&#8230;</string>
+    <string name="whops">Whoops!</string>
+    <string name="login_title">Good Job!</string>
+    <string name="login_failed">Invalid Email or Password!</string>
+    <string name="login_success">Login Successfully&#8230;</string>
+
+    <!--dialog choose option-->
+    <string name="dialog_success">Success!</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_read_more">Read More</string>
+    <string name="dialog_dismiss">Dismiss</string>
+    <string name="dialog_settings">GOTO SETTINGS</string>
+
+
 </resources>
